@@ -1,0 +1,21 @@
+.banner {
+    display: block;
+    padding: 5px;
+    margin: 0;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.bannerText {
+    position: relative;
+    top: 100px;
+    z-index: 20;
+    text-align: center;
+    color: white;
+    text-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.8),
+    0 0 20px rgba(0, 0, 0, 0.6),
+    0 0 30px rgba(0, 0, 0, 0.4);
+    font-size: xx-large;
+}

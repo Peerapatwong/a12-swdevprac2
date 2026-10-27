@@ -1,8 +1,8 @@
 .page {
-  --background: #fafafa;
+  --background: inherit;
   --foreground: #fff;
 
-  --text-primary: #000;
+  --text-primary: #ffffff;
   --text-secondary: #666;
 
   --button-primary-hover: #383838;
@@ -15,19 +15,18 @@
   align-items: center;
   justify-content: center;
   font-family: var(--font-geist-sans);
-  background-color: var(--background);
+  background-color: transparent;
 }
 
 .main {
   display: flex;
   flex: 1;
   width: 100%;
-  max-width: 800px;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
+  background-color: transparent;
+  padding: 0;
 }
 
 .intro {
@@ -120,24 +119,6 @@ a.secondary {
     font-size: 32px;
     line-height: 40px;
     letter-spacing: -1.92px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-
-  .page {
-    --background: #000;
-    --foreground: #000;
-
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
   }
 }
 
